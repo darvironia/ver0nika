@@ -1,0 +1,6 @@
+<a>
+  <xmlns prefix="q" namespace"aaaa1"/>
+  <xmlns prefix="b" namespace"dbfjsdgjhfgsdj"/>
+  <q:foo></q:foo>
+  <b:foo></b:foo>
+</a>

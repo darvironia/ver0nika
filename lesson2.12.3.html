@@ -1,0 +1,11 @@
+<script>
+  let n = 100;
+  for (let number = 2; number < n; number++) {
+    let IsPrime = true;
+    for (let i = 2; i <= number >> 1; i++) {
+      IsPrime &&= number % i !== 0;
+      if (!IsPrime) break;
+    }
+    if (IsPrime) alert(number);
+  }
+</script>
